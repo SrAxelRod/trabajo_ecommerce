@@ -44,7 +44,9 @@ El campo **ID** se definió como campo clave porque es un valor único de cada e
 
 ## Video Demostrativo
 
-<video src="WhatsApp%20Video%202026-06-22%20at%209.10.19%20PM.mp4" controls width="100%"></video>
+<a href="WhatsApp%20Video%202026-06-22%20at%209.10.19%20PM.mp4">
+  <img src="images/actividad/image1.png" alt="Click para ver el video demostrativo" width="100%">
+</a>
 
 ## Reflexión
 
