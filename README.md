@@ -1,16 +1,51 @@
-# React + Vite
+# Elden Bazaar 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Materia:** Algoritmo y Estructura de Datos  
+**Alumno:** Ferreira Axel  
+**Comisión:** K1.3  
+**Legajo:** 28834  
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+E-commerce orientado al mundo de los videojuegos, diseñado para que los amantes de *Elden Ring* puedan adquirir todos aquellos objetos, armas y elementos que el juego ofrece y han soñado con poseer.
 
-## React Compiler
+## Diseño del Registro
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Campo | Tipo |
+|---|---|
+| ID (Clave) | AN(20) |
+| Nombre | AN(30) |
+| Descripción | AN(200) |
+| Precio | Real |
+| TipoDaño | AN(20) |
+| Daño | Entero |
+| Categoria | AN(20) |
+| Peso | Real |
+| Imagen | AN(200) |
+| Requisitos | AN(30) |
+| Efectos | AN(30) |
+| Vendidos | Entero |
+| fechaModificacion | Año: N(4), Mes: 1..12, Día: 1..31 |
 
-## Expanding the ESLint configuration
+El campo **ID** se definió como campo clave porque es un valor único de cada elemento que permite identificar inequívocamente cada registro, a diferencia de otros campos como peso, precio o categoría.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Capturas de Pantalla
+
+| | |
+|---|---|
+| ![Imagen 1](images/actividad/image1.png) | ![Imagen 2](images/actividad/image2.png) |
+| ![Imagen 3](images/actividad/image3.png) | ![Imagen 4](images/actividad/image4.png) |
+| ![Imagen 5](images/actividad/image5.png) | ![Imagen 6](images/actividad/image6.png) |
+| ![Imagen 7](images/actividad/image7.png) | ![Imagen 8](images/actividad/image8.png) |
+
+## URL de la App
+
+[https://trabajo-ecommerce.vercel.app/](https://trabajo-ecommerce.vercel.app/)
+
+## Video Demostrativo
+
+<video src="WhatsApp%20Video%202026-06-22%20at%209.10.19%20PM.mp4" controls width="100%"></video>
+
+## Reflexión
+
+La implementación de una herramienta de soporte como la IA facilita enormemente la forma en la que se diseñan las páginas web. Partir de una idea, pensar su diseño y estructura, y luego poder ejecutarla es una labor que un desarrollador podría demorarse incluso días o semanas en llevar a cabo. Sin embargo, utilizando inteligencia artificial no solo se facilita el diseño y la forma, sino que también otorga ideas al programador para poder crear algo innovador y más amigable con el usuario, acortando enormemente el tiempo de respuesta, detección de problemas y solución de los mismos.
