@@ -44,7 +44,7 @@ El campo **ID** se definió como campo clave porque es un valor único de cada e
 
 ## Video Demostrativo
 
-![Ver video](https://drive.google.com/file/d/1VNjUyk7Z_qWQMdkFS8B5ovHF2AQfcyJn/view?usp=sharing)
+https://drive.google.com/file/d/1VNjUyk7Z_qWQMdkFS8B5ovHF2AQfcyJn/view?usp=sharing
 
 ## Reflexión
 
